@@ -1,0 +1,73 @@
+0000.009 (R) [notice] Looking for db archive: file name: backup_2022-04-19-1554_BE_Code_Challenge_d45577d266f4-db.gz
+0000.009 (R) [notice] Archive is expected to be size: 19.5 KB: OK
+0000.010 (R) [notice] Looking for uploads archive: file name: backup_2022-04-19-1554_BE_Code_Challenge_d45577d266f4-uploads.zip
+0000.010 (R) [notice] Archive is expected to be size: 56.2 KB: OK
+0000.013 (R) [notice] Unpacking backup... (backup_2022-04-19-1554_BE_Code_Challenge_d45577d266f4-db.gz, 0 Mb)
+0000.014 (R) [notice] Restoring the database (on a large site this can take a long time - if it times out (which can happen if your web hosting company has configured your hosting to limit resources) then you should use a different method, such as phpMyAdmin)...
+0000.050 (R) [notice] Enabling Maintenance mode&#8230;
+0000.073 (R) [notice] Backup of: http://clique-be-challenge.test/wp
+0000.073 (R) [notice] Site home: http://clique-be-challenge.test
+0000.073 (R) [notice] Content URL: http://clique-be-challenge.test/app
+0000.073 (R) [notice] Uploads URL: http://clique-be-challenge.test/app/uploads
+0000.073 (R) [notice] Old table prefix: wp_
+0000.073 (R) [notice] Old ABSPATH: /Users/justinhughes/Documents/sites/clique-be-challenge/web/wp/
+0000.074 (R) [notice] Site information: multisite = 0
+0000.074 (R) [notice] Site information: sql_mode = NO_ZERO_IN_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_ENGINE_SUBSTITUTION
+0000.075 (R) [notice] New table prefix: 95_
+0000.079 (R) [notice] Processing table (InnoDB):  wp_options - will restore as: 95_options
+0000.101 (R) [notice] Atomic restore: dropping original table (wp_options)
+0000.108 (R) [notice] Atomic restore: renaming new table (95_options) to final table name (wp_options)
+0000.120 (R) [notice] Search and replacing table: wp_options: rows: 288
+0000.124 (R) [notice] Processing table (InnoDB):  wp_users - will restore as: 95_users
+0000.137 (R) [notice] Atomic restore: dropping original table (wp_users)
+0000.141 (R) [notice] Atomic restore: renaming new table (95_users) to final table name (wp_users)
+0000.148 (R) [notice] Search and replacing table: wp_users: rows: 1
+0000.148 (R) [notice] Processing table (InnoDB):  wp_usermeta - will restore as: 95_usermeta
+0000.157 (R) [notice] Atomic restore: dropping original table (wp_usermeta)
+0000.160 (R) [notice] Atomic restore: renaming new table (95_usermeta) to final table name (wp_usermeta)
+0000.165 (R) [notice] Search and replacing table: wp_usermeta: rows: 23
+0000.165 (R) [notice] Processing table (InnoDB):  wp_commentmeta - will restore as: 95_commentmeta
+0000.171 (R) [notice] Atomic restore: dropping original table (wp_commentmeta)
+0000.175 (R) [notice] Atomic restore: renaming new table (95_commentmeta) to final table name (wp_commentmeta)
+0000.181 (R) [notice] Search and replacing table: wp_commentmeta: rows: 0
+0000.181 (R) [notice] Processing table (InnoDB):  wp_comments - will restore as: 95_comments
+0000.194 (R) [notice] Atomic restore: dropping original table (wp_comments)
+0000.200 (R) [notice] Atomic restore: renaming new table (95_comments) to final table name (wp_comments)
+0000.206 (R) [notice] Search and replacing table: wp_comments: rows: 1
+0000.206 (R) [notice] Processing table (InnoDB):  wp_links - will restore as: 95_links
+0000.215 (R) [notice] Atomic restore: dropping original table (wp_links)
+0000.219 (R) [notice] Atomic restore: renaming new table (95_links) to final table name (wp_links)
+0000.226 (R) [notice] Search and replacing table: wp_links: rows: 0
+0000.226 (R) [notice] Processing table (InnoDB):  wp_postmeta - will restore as: 95_postmeta
+0000.241 (R) [notice] Atomic restore: dropping original table (wp_postmeta)
+0000.246 (R) [notice] Atomic restore: renaming new table (95_postmeta) to final table name (wp_postmeta)
+0000.252 (R) [notice] Search and replacing table: wp_postmeta: rows: 76
+0000.253 (R) [notice] Processing table (InnoDB):  wp_posts - will restore as: 95_posts
+0000.267 (R) [notice] Atomic restore: dropping original table (wp_posts)
+0000.271 (R) [notice] Atomic restore: renaming new table (95_posts) to final table name (wp_posts)
+0000.278 (R) [notice] Search and replacing table: wp_posts: rows: 28
+0000.279 (R) [notice] Processing table (InnoDB):  wp_term_relationships - will restore as: 95_term_relationships
+0000.289 (R) [notice] Atomic restore: dropping original table (wp_term_relationships)
+0000.295 (R) [notice] Atomic restore: renaming new table (95_term_relationships) to final table name (wp_term_relationships)
+0000.301 (R) [notice] Search and replacing table: wp_term_relationships: rows: 8
+0000.301 (R) [notice] Processing table (InnoDB):  wp_term_taxonomy - will restore as: 95_term_taxonomy
+0000.311 (R) [notice] Atomic restore: dropping original table (wp_term_taxonomy)
+0000.315 (R) [notice] Atomic restore: renaming new table (95_term_taxonomy) to final table name (wp_term_taxonomy)
+0000.321 (R) [notice] Search and replacing table: wp_term_taxonomy: rows: 2
+0000.321 (R) [notice] Processing table (InnoDB):  wp_termmeta - will restore as: 95_termmeta
+0000.371 (R) [notice] Atomic restore: dropping original table (wp_termmeta)
+0000.374 (R) [notice] Atomic restore: renaming new table (95_termmeta) to final table name (wp_termmeta)
+0000.380 (R) [notice] Search and replacing table: wp_termmeta: rows: 0
+0000.380 (R) [notice] Processing table (InnoDB):  wp_terms - will restore as: 95_terms
+0000.394 (R) [notice] Disabling Maintenance mode&#8230;
+0000.394 (R) [notice] Atomic restore: dropping original table (wp_terms)
+0000.397 (R) [notice] Atomic restore: renaming new table (95_terms) to final table name (wp_terms)
+0000.403 (R) [notice] Search and replacing table: wp_terms: rows: 2
+0000.403 (R) [notice] Finished: lines processed: 42 in 0.38 seconds
+0000.404 (R) [notice] Cleaning up rubbish...
+0000.411 (R) [notice] Unpacking backup... (backup_2022-04-19-1554_BE_Code_Challenge_d45577d266f4-uploads.zip, 0.1 MB)
+0000.444 (R) [notice] Unzip progress: 38 out of 38 files (71.6 KB, uploads/2022/04/test-300x200.jpeg)
+0000.446 (R) [notice] Moving old data out of the way...
+0000.467 (R) [notice] Moving unpacked backup into place...
+0000.481 (R) [notice] Cleaning up rubbish...
+0000.499 (R) [notice] Restore successful!

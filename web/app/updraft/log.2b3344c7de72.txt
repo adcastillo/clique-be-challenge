@@ -1,0 +1,97 @@
+0000.003 () Opened log file at time: Thu, 18 Aug 2022 21:13:56 +0000 on http://clique-be-challenge.test/wp
+0000.003 () UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.22.11 WP: 5.9.3 PHP: 8.1.8 (fpm-fcgi, Darwin MacBook-Pro.lan 19.6.0 Darwin Kernel Version 19.6.0: Thu Jun 18 20:49:00 PDT 2020; root:xnu-6153.141.1~1/RELEASE_X86_64 x86_64) MySQL: 8.0.30 (max packet size=67108864) WPLANG: en_US Server: nginx/1.23.1 safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 3.3M | 4M) multisite: N openssl: OpenSSL 1.1.1q  5 Jul 2022 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.004 () Free space on disk containing Updraft's temporary directory: 22165.5 MB
+0000.024 () Restore setup, now closing connection and starting restore over AJAX.
+0000.003 () Opened log file at time: Thu, 18 Aug 2022 21:13:56 +0000 on http://clique-be-challenge.test/wp
+0000.003 () UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.22.11 WP: 5.9.3 PHP: 8.1.8 (fpm-fcgi, Darwin MacBook-Pro.lan 19.6.0 Darwin Kernel Version 19.6.0: Thu Jun 18 20:49:00 PDT 2020; root:xnu-6153.141.1~1/RELEASE_X86_64 x86_64) MySQL: 8.0.30 (max packet size=67108864) WPLANG: en_US Server: nginx/1.23.1 safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 2.9M | 4M) multisite: N openssl: OpenSSL 1.1.1q  5 Jul 2022 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.003 () Free space on disk containing Updraft's temporary directory: 22165.3 MB
+0000.004 () Ensuring WP_Filesystem is setup for a restore
+0000.004 () WP_Filesystem is setup and ready for a restore
+0000.006 () Restore job started. Entities to restore: uploads, db. Restore options: {"include_unspecified_tables":false,"tables_to_restore":["wp_options","wp_users","wp_usermeta","wp_commentmeta","wp_comments","wp_links","wp_postmeta","wp_posts","wp_term_relationships","wp_term_taxonomy","wp_termmeta","wp_terms"],"tables_to_skip":[],"updraft_encryptionphrase":"","updraft_restorer_wpcore_includewpconfig":false,"updraft_incremental_restore_point":-1}
+0000.009 () Will not delete any archives after unpacking them, because there was no cloud storage for this backup
+0000.010 () Entity: db
+0000.010 () restore_backup(backup_file=backup_2022-04-19-1554_BE_Code_Challenge_d45577d266f4-db.gz, type=db, info=a:0:{}, last_one=)
+0000.010 () Unpacking backup... (backup_2022-04-19-1554_BE_Code_Challenge_d45577d266f4-db.gz, 0 Mb)
+0000.010 () PHP event: code E_WARNING: mkdir(): File exists (line 545, wp-admin/includes/class-wp-filesystem-direct.php)
+0000.016 () Database successfully unpacked
+0000.016 () Restoring the database (on a large site this can take a long time - if it times out (which can happen if your web hosting company has configured your hosting to limit resources) then you should use a different method, such as phpMyAdmin)...
+0000.016 () Using direct MySQL access; value of use_mysqli is: 1
+0000.017 () SQL compatibility mode is: NO_AUTO_VALUE_ON_ZERO,NO_ZERO_IN_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_ENGINE_SUBSTITUTION
+0000.053 () Max packet size: 64 MB
+0000.053 () Entering maintenance mode
+0000.053 () Enabling Maintenance mode&#8230;
+0000.061 () Backup of: http://clique-be-challenge.test/wp
+0000.062 () Site home: http://clique-be-challenge.test
+0000.062 () Content URL: http://clique-be-challenge.test/app
+0000.062 () Uploads URL: http://clique-be-challenge.test/app/uploads
+0000.062 () Old table prefix: wp_
+0000.062 () Old ABSPATH: /Users/justinhughes/Documents/sites/clique-be-challenge/web/wp/
+0000.062 () Site information: multisite=0
+0000.062 () Site information: sql_mode=NO_ZERO_IN_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_ENGINE_SUBSTITUTION
+0000.063 () New table prefix: ui_
+0000.065 () Processing table (InnoDB): wp_options - will restore as: ui_options
+0000.086 () Atomic restore: dropping original table (wp_options)
+0000.089 () Atomic restore: renaming new table (ui_options) to final table name (wp_options)
+0000.093 () Restoring prior UD configuration (table: wp_options; keys: 4)
+0000.102 () Search and replacing table: wp_options: rows: 288
+0000.105 () Processing table (InnoDB): wp_users - will restore as: ui_users
+0000.116 () Atomic restore: dropping original table (wp_users)
+0000.119 () Atomic restore: renaming new table (ui_users) to final table name (wp_users)
+0000.127 () Search and replacing table: wp_users: rows: 1
+0000.127 () Processing table (InnoDB): wp_usermeta - will restore as: ui_usermeta
+0000.142 () Atomic restore: dropping original table (wp_usermeta)
+0000.145 () Atomic restore: renaming new table (ui_usermeta) to final table name (wp_usermeta)
+0000.151 () Search and replacing table: wp_usermeta: rows: 23
+0000.151 () Processing table (InnoDB): wp_commentmeta - will restore as: ui_commentmeta
+0000.158 () Atomic restore: dropping original table (wp_commentmeta)
+0000.161 () Atomic restore: renaming new table (ui_commentmeta) to final table name (wp_commentmeta)
+0000.166 () Search and replacing table: wp_commentmeta: rows: 0
+0000.167 () Processing table (InnoDB): wp_comments - will restore as: ui_comments
+0000.179 () Atomic restore: dropping original table (wp_comments)
+0000.189 () Atomic restore: renaming new table (ui_comments) to final table name (wp_comments)
+0000.196 () Search and replacing table: wp_comments: rows: 1
+0000.197 () Processing table (InnoDB): wp_links - will restore as: ui_links
+0000.206 () Atomic restore: dropping original table (wp_links)
+0000.210 () Atomic restore: renaming new table (ui_links) to final table name (wp_links)
+0000.219 () Search and replacing table: wp_links: rows: 0
+0000.219 () Processing table (InnoDB): wp_postmeta - will restore as: ui_postmeta
+0000.229 () Atomic restore: dropping original table (wp_postmeta)
+0000.232 () Atomic restore: renaming new table (ui_postmeta) to final table name (wp_postmeta)
+0000.237 () Search and replacing table: wp_postmeta: rows: 76
+0000.238 () Processing table (InnoDB): wp_posts - will restore as: ui_posts
+0000.251 () Atomic restore: dropping original table (wp_posts)
+0000.255 () Atomic restore: renaming new table (ui_posts) to final table name (wp_posts)
+0000.261 () Skipping search/replace on GUID column in posts table
+0000.263 () Search and replacing table: wp_posts: rows: 28
+0000.263 () Processing table (InnoDB): wp_term_relationships - will restore as: ui_term_relationships
+0000.273 () Atomic restore: dropping original table (wp_term_relationships)
+0000.276 () Atomic restore: renaming new table (ui_term_relationships) to final table name (wp_term_relationships)
+0000.281 () Search and replacing table: wp_term_relationships: rows: 8
+0000.282 () Processing table (InnoDB): wp_term_taxonomy - will restore as: ui_term_taxonomy
+0000.291 () Atomic restore: dropping original table (wp_term_taxonomy)
+0000.293 () Atomic restore: renaming new table (ui_term_taxonomy) to final table name (wp_term_taxonomy)
+0000.301 () Search and replacing table: wp_term_taxonomy: rows: 2
+0000.301 () Processing table (InnoDB): wp_termmeta - will restore as: ui_termmeta
+0000.330 () Atomic restore: dropping original table (wp_termmeta)
+0000.333 () Atomic restore: renaming new table (ui_termmeta) to final table name (wp_termmeta)
+0000.339 () Search and replacing table: wp_termmeta: rows: 0
+0000.339 () Processing table (InnoDB): wp_terms - will restore as: ui_terms
+0000.351 () Unlocking database and leaving maintenance mode
+0000.351 () Disabling Maintenance mode&#8230;
+0000.351 () Atomic restore: dropping original table (wp_terms)
+0000.354 () Atomic restore: renaming new table (ui_terms) to final table name (wp_terms)
+0000.359 () Search and replacing table: wp_terms: rows: 2
+0000.359 () Finished: lines processed: 42 in 0.34 seconds
+0000.359 () Cleaning up rubbish...
+0000.362 () Entity: uploads
+0000.362 () restore_backup(backup_file=backup_2022-04-19-1554_BE_Code_Challenge_d45577d266f4-uploads.zip, type=uploads, info=a:2:{s:4:"path";s:76:"/Users/angelcastillo/Desktop/valet-sites/clique-be-challenge/web/app/uploads";s:11:"description";s:7:"Uploads";}, last_one=1)
+0000.362 () Unpacking backup... (backup_2022-04-19-1554_BE_Code_Challenge_d45577d266f4-uploads.zip, 0.1 MB)
+0000.364 () Unzipping backup_2022-04-19-1554_BE_Code_Challenge_d45577d266f4-uploads.zip to /Users/angelcastillo/Desktop/valet-sites/clique-be-challenge/web/app/upgrade/d6c88c74/ using UpdraftPlus_ZipArchive, starting index 0
+0000.385 () Unzip progress: 38 out of 38 files (71.6 KB, uploads/2022/04/test-300x200.jpeg)
+0000.400 () Moving old data: filesystem method / updraft_dir is potentially possible
+0000.400 () Moving old data: can potentially use wp_filesystem method / -old
+0000.401 () Moving old data out of the way...
+0000.402 () Moving unpacked backup into place...
+0000.419 () Cleaning up rubbish...
+0000.428 () Restore successful!
+0000.428 () Restore successful
